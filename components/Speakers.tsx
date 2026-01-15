@@ -27,13 +27,13 @@ const Speakers: React.FC = () => {
         {leaders.map((leader, index) => (
           <div key={index} className="group relative">
             <div className="relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/5] shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]">
-              <img 
-                src={leader.imageUrl} 
+              <img
+                src={leader.imageUrl}
                 alt={leader.name}
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                className={`w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ${leader.name.includes('MILDRED') ? 'scale-[1.05] object-top translate-y-2' : 'object-top'}`}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-90" />
-              
+
               <div className="absolute bottom-0 left-0 right-0 p-8 text-center">
                 <span className="inline-block px-4 py-1 rounded-full bg-amber-500 text-stone-950 text-xs font-black uppercase tracking-[0.2em] mb-3">
                   {leader.label}

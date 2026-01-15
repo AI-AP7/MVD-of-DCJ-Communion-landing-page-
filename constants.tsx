@@ -17,12 +17,12 @@ export const SPEAKERS: Speaker[] = [
     name: "WILLIAM E. MCMILLAN, JR.",
     role: "PRELATE",
     title: "BISHOP",
-    imageUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=688&auto=format&fit=crop" // Placeholder for Bishop
+    imageUrl: "/Images/Gemini-Bishop.png"
   },
   {
     name: "MILDRED LINZY",
     role: "SUPERVISOR, DEPTARTMENT OF WOMEN",
     title: "MOTHER",
-    imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=688&auto=format&fit=crop" // Placeholder for Mother
+    imageUrl: "/Images/Gemini-Mo-linzy.png"
   }
 ];

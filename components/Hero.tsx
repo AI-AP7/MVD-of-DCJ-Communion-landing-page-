@@ -15,25 +15,14 @@ const Hero: React.FC = () => {
         </h3>
       </div>
 
-      {/* Main Imagery: The Two Leaders as shown in the flyer */}
-      <div className="relative w-full max-w-4xl flex justify-center items-end mb-[-40px] md:mb-[-80px] z-10">
-        <div className="flex items-end justify-center -space-x-12 md:-space-x-20">
-          {/* Bishop */}
-          <div className="relative w-[180px] md:w-[320px] z-10">
-            <img 
-              src={SPEAKERS[0].imageUrl} 
-              alt={SPEAKERS[0].name}
-              className="w-full h-auto drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)] mask-bottom"
-              style={{ maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)' }}
-            />
-          </div>
-          {/* Mother */}
-          <div className="relative w-[150px] md:w-[280px] z-0 opacity-90 mb-4 md:mb-10">
-            <img 
-              src={SPEAKERS[1].imageUrl} 
-              alt={SPEAKERS[1].name}
-              className="w-full h-auto drop-shadow-[0_15px_40px_rgba(0,0,0,0.8)]"
-              style={{ maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)' }}
+      {/* Main Imagery: COGIC Seal */}
+      <div className="relative w-full max-w-lg mb-8 z-10">
+        <div className="flex justify-center">
+          <div className="w-72 md:w-[28rem] h-72 md:h-[28rem] flex items-center justify-center">
+            <img
+              src="/Images/official-Seal.png"
+              alt="Official Seal"
+              className="w-full h-full object-contain drop-shadow-[0_0_20px_rgba(252,224,162,0.4)]"
             />
           </div>
         </div>
@@ -41,7 +30,7 @@ const Hero: React.FC = () => {
 
       {/* Text Content matching the flyer structure */}
       <div className="relative z-20 w-full max-w-5xl px-4">
-        <h2 className="font-script text-6xl md:text-9xl gold-text mb-[-15px] md:mb-[-30px] drop-shadow-lg">
+        <h2 className="font-script text-8xl md:text-[14rem] gold-text mb-[-15px] md:mb-[-40px] drop-shadow-2xl">
           Service of
         </h2>
         <h1 className="text-4xl md:text-8xl font-[900] text-amber-100/90 leading-none tracking-tighter uppercase drop-shadow-2xl italic">
