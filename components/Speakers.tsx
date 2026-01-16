@@ -29,7 +29,7 @@ const Speakers: React.FC = () => {
             <div
               className="relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/5] shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]"
               style={{
-                backgroundImage: "url('/Images/Program  2.PNG')",
+                backgroundImage: "url('/Images/program  2.png')",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center'
               }}

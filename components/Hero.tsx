@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         <div className="flex justify-center">
           <div className="w-72 md:w-[28rem] h-72 md:h-[28rem] flex items-center justify-center">
             <img
-              src="/Images/official-Seal.png"
+              src="/Images/official-seal.png"
               alt="Official Seal"
               className="w-full h-full object-contain drop-shadow-[0_0_20px_rgba(252,224,162,0.4)]"
             />
