@@ -26,11 +26,18 @@ const Speakers: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
         {leaders.map((leader, index) => (
           <div key={index} className="group relative">
-            <div className="relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/5] shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]">
+            <div
+              className="relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/5] shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]"
+              style={{
+                backgroundImage: "url('/Images/Program  2.PNG')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              }}
+            >
               <img
                 src={leader.imageUrl}
                 alt={leader.name}
-                className={`w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ${leader.name.includes('MILDRED') ? 'scale-[1.05] object-top translate-y-2' : 'object-top'}`}
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 object-top scale-[0.85]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-90" />
 

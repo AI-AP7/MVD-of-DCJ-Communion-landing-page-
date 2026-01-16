@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Main Imagery: COGIC Seal */}
-      <div className="relative w-full max-w-lg mb-8 z-10">
+      <div className="relative w-full max-w-lg mb-[-2rem] z-10">
         <div className="flex justify-center">
           <div className="w-72 md:w-[28rem] h-72 md:h-[28rem] flex items-center justify-center">
             <img
@@ -54,8 +54,8 @@ const Hero: React.FC = () => {
 
         {/* Lead Names footer in Hero */}
         <div className="mt-10 italic text-white/80 text-xs md:text-base space-y-1 tracking-wider uppercase font-medium">
-          <p>BISHOP WILLIAM E. MCMILLAN, JR. PRELATE</p>
-          <p>MOTHER MILDRED LINZY, SUPERVISOR, DEPTARTMENT OF WOMEN</p>
+          <p>BISHOP WILLIAM E. MCMILLAN, JR. - PRELATE</p>
+          <p>MOTHER MILDRED LINZY - SUPERVISOR OF WOMEN</p>
           <p className="text-amber-500 font-bold mt-4 tracking-[0.5em] opacity-80">{EVENT_DATA.hashtag}</p>
         </div>
       </div>

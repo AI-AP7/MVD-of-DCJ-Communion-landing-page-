@@ -9,20 +9,20 @@ export const EVENT_DATA: EventDetails = {
   location: "ST. PAUL MIRACLE TEMPLE COGIC",
   address: "13000 BEECHTREE LANE | BOWIE, MD 20715",
   host: "PASTOR BOOKER T. HINES, JR. - HOST PASTOR",
-  hashtag: "#WDCJ"
+  hashtag: "#DCEJ"
 };
 
 export const SPEAKERS: Speaker[] = [
   {
     name: "WILLIAM E. MCMILLAN, JR.",
-    role: "PRELATE",
+    role: "- PRELATE",
     title: "BISHOP",
     imageUrl: "/Images/Gemini-Bishop.png"
   },
   {
     name: "MILDRED LINZY",
-    role: "SUPERVISOR, DEPTARTMENT OF WOMEN",
+    role: "- SUPERVISOR OF WOMEN",
     title: "MOTHER",
-    imageUrl: "/Images/Gemini-Mo-linzy.png"
+    imageUrl: "/Images/Mo-Linzy-Final.png"
   }
 ];
