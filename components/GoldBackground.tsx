@@ -8,7 +8,7 @@ const GoldBackground: React.FC<{ children: React.ReactNode }> = ({ children }) =
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60 scale-100"
-          style={{ backgroundImage: `url('/Images/program .png')` }}
+          style={{ backgroundImage: `url('/program.png')` }}
         />
         {/* Layer 2: Warm Brown/Gold Vignette and Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#1a0f08]/80 via-transparent to-[#0c0a09]" />

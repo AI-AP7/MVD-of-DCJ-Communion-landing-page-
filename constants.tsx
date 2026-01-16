@@ -17,12 +17,12 @@ export const SPEAKERS: Speaker[] = [
     name: "WILLIAM E. MCMILLAN, JR.",
     role: "- PRELATE",
     title: "BISHOP",
-    imageUrl: "/Images/gemini-bishop.png"
+    imageUrl: "/gemini-bishop.png"
   },
   {
     name: "MILDRED LINZY",
     role: "- SUPERVISOR OF WOMEN",
     title: "MOTHER",
-    imageUrl: "/Images/mo-linzy-final.png"
+    imageUrl: "/mo-linzy-final.png"
   }
 ];
