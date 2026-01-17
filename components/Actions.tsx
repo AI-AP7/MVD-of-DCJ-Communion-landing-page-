@@ -21,7 +21,7 @@ const Actions: React.FC = () => {
   };
 
   const actions = [
-    { label: "Watch Live Stream", href: "#", external: true },
+    { label: "Watch Live Stream", href: "https://www.youtube.com/watch?v=z-GEzM4vck4", external: true },
     { label: "View Event Program", href: programPdf, external: true },
     { label: "Online Giving", href: "#", external: false }, // Updated href to be irrelevant
   ];
