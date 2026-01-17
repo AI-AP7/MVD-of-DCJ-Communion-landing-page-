@@ -6,7 +6,7 @@ export const EVENT_DATA: EventDetails = {
   title: "Service of",
   subtitle: "COMMUNION, ANOINTING AND CONSECRATION",
   date: "SATURDAY, JANUARY 17, 2026 AT 11AM",
-  location: "ST. PAUL MIRACLE TEMPLE COGIC",
+  location: "ST. PAUL TEMPLE COGIC",
   address: "13000 BEECHTREE LANE | BOWIE, MD 20715",
   host: "PASTOR BOOKER T. HINES, JR. - HOST PASTOR",
   hashtag: "#DCEJ"
